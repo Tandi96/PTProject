@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat-Chorus</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://www.svgrepo.com/show/508286/comment.svg" />
+</head>
+<body>
+  <div class="container">
+    <h2>Select an Avatar</h2>
+    <div class="avatar-options" id="avatarOptions">
+      <img src="https://i.pravatar.cc/50?img=1" class="avatar" alt="avatar1" />
+      <img src="https://i.pravatar.cc/50?img=2" class="avatar" alt="avatar2" />
+      <img src="https://i.pravatar.cc/50?img=3" class="avatar" alt="avatar3" />
+      <img src="https://i.pravatar.cc/50?img=4" class="avatar" alt="avatar4" />
+      <img src="https://i.pravatar.cc/50?img=5" class="avatar" alt="avatar5" />
+      <img src="https://i.pravatar.cc/50?img=6" class="avatar" alt="avatar6" />
+      <img src="https://i.pravatar.cc/50?img=7" class="avatar" alt="avatar7" />
+      <img src="https://i.pravatar.cc/50?img=8" class="avatar" alt="avatar8" />
+      <img src="https://i.pravatar.cc/50?img=9" class="avatar" alt="avatar9" />
+      <img src="https://i.pravatar.cc/50?img=10" class="avatar" alt="avatar10" />
+    </div>
+
+    <h2>Leave a Comment</h2>
+    <input type="text" id="name" placeholder="Your Name, One username used only one time" />
+    <textarea id="comment" placeholder="Your Comment"></textarea>
+    <button onclick="postComment()">Post Comment</button>
+    <script>alert('THIS WEBSITE IS CORRUPTED WITH XSS')</script>
+
+    <h2>Comments</h2>
+    <div id="commentSection"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
